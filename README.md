@@ -8,13 +8,13 @@ A draft of a unified interface for Polygon data in [`SpeciesDistributionToolkit.
 
 ```julia
 pd = PolygonData(EPA, Ecoregions)
-ecoregion_path = downloader(pd; level=1)
+fc = downloader(pd; level=1)
 
 pd = PolygonData(EPA, Ecoregions)
-ecoregion_path = downloader(pd; level=2)
+fc = downloader(pd; level=2)
 
 pd = PolygonData(EPA, Ecoregions)
-ecoregion_path = downloader(pd; level=3)
+fc = downloader(pd; level=3)
 ```
 
 ### NaturalEarth
